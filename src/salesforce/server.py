@@ -36,7 +36,8 @@ class SalesforceClient:
             self.sf = Salesforce(
                 username=os.getenv('SALESFORCE_USERNAME'),
                 password=os.getenv('SALESFORCE_PASSWORD'),
-                security_token=os.getenv('SALESFORCE_SECURITY_TOKEN')
+                consumer_key=os.getenv('SALESFORCE_CONSUMER_KEY'),
+                consumer_secret=os.getenv('SALESFORCE_CONSUMER_SECRET')
             )
             return True
         except Exception as e:

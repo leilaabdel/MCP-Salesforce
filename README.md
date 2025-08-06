@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server implementation for Salesforce integration, allowing LLMs to interact with Salesforce data through SOQL queries and SOSL searches.
 
+<a href="https://glama.ai/mcp/servers/@leilaabdel/MCP-Salesforce">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@leilaabdel/MCP-Salesforce/badge" alt="salesforce-mcp MCP server" />
+</a>
+
 ## Features
 
 - Execute SOQL (Salesforce Object Query Language) queries
@@ -43,4 +47,3 @@ Replace `YOUR_SALESFORCE_USERNAME`, `YOUR_SALESFORCE_PASSWORD`, and `YOUR_SALESF
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=smn2gnt/MCP-Salesforce&type=Date)](https://www.star-history.com/#smn2gnt/MCP-Salesforce&Date)
-
